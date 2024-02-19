@@ -48,4 +48,61 @@
     <img src="Screenshot 2024-02-19 145834.png" alt="Neural Network Forward" width="700">
 </body>
 </html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Loss Function in Neural Networks</h1>
+    <p>In neural networks, the loss function measures the disparity between predicted and actual values during training. The mean squared error (MSE) is a common loss function, expressed as:</p>
+    <p style="font-family: 'Courier New', Courier, monospace;">𝐹(𝑥) = 𝐸[(𝑡 − 𝑎(𝑥))<sup>2</sup>]</p>
+    <p>Here, 𝑡 represents the actual target value, and 𝑎(𝑥) is the predicted output for input 𝑥. The goal is to minimize this function, achieved through techniques like backpropagation and gradient descent, to enhance predictive accuracy.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stochastic Gradient Descent</title>
+</head>
+<body>
+    <h1>Stochastic Gradient Descent</h1>
+    <p>
+        Stochastic Gradient Descent (SGD) is a widely used optimization algorithm in deep learning and machine learning. It is employed to optimize model parameters and is often more computationally efficient when dealing with large datasets.
+    </p>
+    <p>
+        SGD approximates the gradient using each training example (input, target output) and updates the model parameters. This means that the gradient is computed from a random subset of the data rather than the entire dataset, resulting in a faster training process.
+    </p>
+    <p>
+        One of the main advantages of SGD is its ability to reduce the risk of getting stuck in local minima. Random sampling allows for a more diverse and unpredictable update of the gradient, which often helps reach the global minimum faster.
+    </p>
+    <img src="Başlıksız.png" alt="Stochastic Gradient Descent" width="400">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Backpropagation</h1>
+    <p>
+        Backpropagation is a key algorithm for training artificial neural networks. It allows the network to update its parameters in order to minimize the error between the predicted output and the actual output.
+    </p>
+    <p>
+        The process of backpropagation involves computing the gradient of the loss function with respect to each parameter in the network. This gradient is then used to update the parameters using an optimization algorithm such as stochastic gradient descent.
+    </p>
+    <p>
+        Backpropagation works by propagating the error backwards through the network, hence the name. It calculates the contribution of each parameter to the overall error, allowing the network to adjust its weights and biases accordingly.
+    </p>
+</body>
+</html>
+<img src="Screenshot 2024-02-19 153123.png" alt="Stochastic Gradient Descent" width="800">
+<img src="Screenshot 2024-02-19 153300.png" alt="Stochastic Gradient Descent" width="800">
+<img src="Screenshot 2024-02-19 153428.png" alt="Stochastic Gradient Descent" width="800">
